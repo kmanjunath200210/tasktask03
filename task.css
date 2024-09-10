@@ -1,0 +1,40 @@
+.parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(8,50px);
+    gap: 5px;
+    color: white;
+    
+}
+.child{
+    background-color: gold;
+}
+.one{
+    grid-column: 1/5;
+    grid-row: 1/5;
+}
+.two{
+    grid-row: 5/9;
+    grid-column: 1/2;
+}
+.three{
+    grid-column: 2/3;
+}
+.four{
+    grid-column: 3/4;
+    grid-row: 5/7;
+}
+.five{
+    grid-column: 4/5;
+    grid-row: 5/8;
+}
+.six{
+    grid-column: 2/3;
+    grid-row: 6/9;
+}
+.seven{
+    grid-column: 3/4;
+}
+.eight{
+    grid-column: 3/4;
+}
